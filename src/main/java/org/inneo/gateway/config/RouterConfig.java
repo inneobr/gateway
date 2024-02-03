@@ -11,10 +11,10 @@ public class RouterConfig {
 	@Bean
 	public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
 		return builder.routes()
-				.route("cep", r -> r
-					.path("/cep/**")
-					.filters(f -> f.rewritePath("/cep/(?<cep>.*)", "/api/cep/v1/${cep}"))
-					.uri("https://brasilapi.com.br"))
+				.route("api-brasil", r -> r
+					.path("/results/search_query=**")
+					.filters(f -> f.rewritePath("/results/search_query=(?<cep>.*)", "/api/cep/v1/${cep}"))
+					.uri("https://brasilapi.com.br"))				
 				.build();				
 	}
 }

@@ -5,6 +5,7 @@
  \__, |\__,_|\__\___| \_/\_/ \__,_|\__, | |___/\___|_|    \_/ \___|_|   
  |___/                             |___/                                
 
-${spring.application.name}.inneo.org
+
+${spring.application.name}.inneo.org:${server.port}
 Spring Boot Version ${spring-boot.version} 
 january 31, 2024 by Eduardo Cruz
