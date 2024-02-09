@@ -9,3 +9,4 @@
 ${spring.application.name}.inneo.org:${server.port}
 Spring Boot Version ${spring-boot.version} 
 january 31, 2024 by Eduardo Cruz
+
