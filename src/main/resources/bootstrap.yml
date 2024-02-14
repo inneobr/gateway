@@ -1,8 +1,0 @@
-spring:
-  profiles:
-    active: prod
-  application:
-    name: api-gateway
-  cloud:
-    config:
-      uri: http://config-cloud:7000
